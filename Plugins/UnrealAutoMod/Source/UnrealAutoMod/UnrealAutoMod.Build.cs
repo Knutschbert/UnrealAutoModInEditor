@@ -4,7 +4,7 @@ using UnrealBuildTool;
 
 public class UnrealAutoMod : ModuleRules
 {
-	public UnrealAutoMod(TargetInfo Target)
+	public UnrealAutoMod(ReadOnlyTargetRules Target) : base(Target)
 	{
 		
 		PublicIncludePaths.AddRange(
